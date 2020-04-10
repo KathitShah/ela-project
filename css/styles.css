@@ -1,0 +1,36 @@
+.hi{
+  width:50%;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+  left:0;
+}
+.heading{
+  color:#dd2c00;
+}
+.container-fluid{
+  position: absolute;
+  top: 30%;
+  text-align: center;
+}
+.together{
+  padding-bottom: 0;
+}
+.bye{
+  width:15rem;
+  text-align: center;
+}
+.hello{
+  margin:2% 0;
+  position: relative;
+  right:1%;
+}
+a:hover{
+  text-decoration: none;
+}
+.white{
+  color:#fff;
+}
+.black{
+  color:#000;
+}

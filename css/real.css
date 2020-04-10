@@ -1,0 +1,178 @@
+body{
+  text-align: center;
+  color:#feb72b;
+}
+.heading{
+  color:#dd2c00;
+  position: relative;
+}
+.white{
+  color: #fff;
+}
+.black{
+  color:#000;   
+}
+.container-flu{
+    position: absolute;
+    bottom: 0;
+    right:43%;
+    text-align: center;
+    z-index: 2;
+
+}
+.hi{
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+  left:0;
+}
+.white-icon{
+  color: #fff;
+  padding: 2% 2%;
+}
+.black-icon{
+  color:#000;
+  padding: 2% 1%;   
+}
+.white-icon:hover{
+  color: #00bcd4;
+}
+.black-icon:hover{
+  color:#00bcd4;   
+}
+.copyright{
+  color:#fff;
+}
+.copyright-black{
+  color:#000;
+}
+.hebo{
+  font-size: 0.8rem;
+}
+.treat{
+  width:33%;
+  height:40%;
+  position: absolute;
+  right:0;
+  top: 8%;
+}
+.treat-text{
+  position: absolute;
+  left:73%;
+  bottom:20%;
+  color:#527318;
+}
+.non-treat{
+  background-color: #fff;
+  width: 20%;
+  height:40%;
+  position: absolute;
+  left:10%;
+  top:8%;
+}
+.non-treat-text{
+  position: relative;
+  right:25%;
+  color:#ffe75e;
+}
+.letter{
+  z-index: 1;
+}
+#w{
+  position: absolute;
+  width: 13%;
+  height:35%;
+  left:10.5%;
+  top:3%;
+  transform: rotate(-12deg);
+  display: none;
+}
+#p{
+  position: absolute;
+  width: 13%;
+  height:25%;
+  left:18%;
+  top:20%;
+  display: none;
+}
+.btn-left{
+  position: absolute;
+  left:1rem;
+  top:20rem;
+  margin-top: 5rem;
+}
+.btn-right{
+  position: absolute;
+  right:1rem;
+  top:20rem;
+  margin-top: 5rem;
+  color:#000;
+  border: #000 1px solid;
+}
+.btn-right:hover{
+  background-color: #000;
+  border: #000 1px solid;
+}
+.white-write{
+  color:#fff;
+  position: absolute;
+  left:3%;
+  top:15%;
+  display: none;
+}
+.power{
+  color:#fff;
+  position: absolute;
+  left:32%;
+  top:30%;
+  display: none;
+}
+.bench{
+  width:11%;
+  height:3%;
+  position:absolute;
+  top:9%;
+  right:11%;
+  z-index: 3;
+  display: none;
+}
+.slave-right{
+  width: 30%;
+  height: 14%;
+  position: absolute;
+  z-index: 2;
+  right:11%;
+  bottom:15%;
+  display: none;
+}
+.slave-left{
+  width: 30%;
+  height: 15%;
+  transform: scaleX(-1);
+  position: absolute;
+  left:10%;
+  bottom: 14%;
+  z-index: 2;
+  display: none;
+}
+.whiteboy{
+  width: 10%;
+  height: 60%;
+  position: absolute;
+  bottom: 16%;
+  left:45%;
+}
+.btn-center{
+  position:absolute;
+  left:33%;
+  top: 15%;
+}
+.handcuff{
+  width:auto;
+  height:100%;
+  position: absolute;
+  z-index: 10;
+  left:25%;
+  display: none;
+}

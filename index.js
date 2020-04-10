@@ -1,5 +1,5 @@
 function hi(){
-  var name = ["Catherine", "Kathit", "Draper", "Maxwell", "Shamel", "Lee", "Kato", "Steven"];
+  var name = ["Catherine", "Kathit", "Draper", "Maxwell", "Shamel", "Lee", "Kato", "Steven", "Asher", "John Paul", "Jaypee", "John"];
   var password = ["catherinedraper@102"];
   var myName = document.getElementById("demo").value;
   var letter = myName.slice(0,1);

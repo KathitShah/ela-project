@@ -3,14 +3,12 @@ function hi(){
   var myName = document.getElementById("demo").value;
   var letter = myName.slice(0,1);
   var myPassword = document.getElementById("password").value;
-  var myPasswordLetters = myPassword.slice(0,myPassword.length);
-  var myPasswordLowerCase = myPasswordLetters.toLowerCase();
   var capitalize = letter.toUpperCase();
   var letters = myName.slice(1,myName.length);
   var noCapital = letters.toLowerCase();
   var yourName = capitalize + noCapital;
-  if(password.includes(myPasswordLowerCase)){
-    if(yourName === "Catherine" && password.includes(myPasswordLowerCase)|| yourName === "Draper" && password.includes(myPasswordLowerCase)){
+  if(password.includes(myPassword)){
+    if(yourName === "Catherine" && password.includes(myPassword)|| yourName === "Draper" && password.includes(myPassword)){
       alert("Welcome Mrs.Draper, you are being redirected to my real website!!!");
       var change = document.getElementById("big-btn").href="real.html";
     }

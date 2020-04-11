@@ -9,8 +9,8 @@ function hi(){
   var letters = myName.slice(1,myName.length);
   var noCapital = letters.toLowerCase();
   var yourName = capitalize + noCapital;
-  if(password.includes(myPasswordLetters)){
-    if(yourName === "Catherine" && password.includes(myPasswordLetters)|| yourName === "Draper" && password.includes(myPasswordLetters)){
+  if(password.includes(myPasswordLowerCase)){
+    if(yourName === "Catherine" && password.includes(myPasswordLowerCase)|| yourName === "Draper" && password.includes(myPasswordLowerCase)){
       alert("Welcome Mrs.Draper, you are being redirected to my real website!!!");
       var change = document.getElementById("big-btn").href="real.html";
     }

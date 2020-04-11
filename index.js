@@ -1,6 +1,5 @@
 function hi(){
-  var name = ["Catherine", "Kathit", "Draper", "Maxwell", "Shamel", "Lee", "Kato", "Steven", "Asher", "John Paul", "Jaypee", "John"];
-  var password = ["catherinedraper@102"];
+  var password = ["kathitisthebest"];
   var myName = document.getElementById("demo").value;
   var letter = myName.slice(0,1);
   var myPassword = document.getElementById("password").value;
@@ -10,7 +9,7 @@ function hi(){
   var letters = myName.slice(1,myName.length);
   var noCapital = letters.toLowerCase();
   var yourName = capitalize + noCapital;
-  if(name.includes(yourName) && password.includes(myPasswordLetters)){
+  if(password.includes(myPasswordLetters)){
     if(yourName === "Catherine" && password.includes(myPasswordLetters)|| yourName === "Draper" && password.includes(myPasswordLetters)){
       alert("Welcome Mrs.Draper, you are being redirected to my real website!!!");
       var change = document.getElementById("big-btn").href="real.html";

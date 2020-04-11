@@ -44,10 +44,12 @@ body{
 .copyright{
   color:#fff;
   position:absolute;
+  left: 30%;
 }
 .copyright-black{
   color:#000;
   position:absolute;
+  left: 30%;
 }
 .hebo{
   font-size: 0.8rem;

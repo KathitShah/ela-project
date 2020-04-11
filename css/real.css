@@ -43,9 +43,11 @@ body{
 }
 .copyright{
   color:#fff;
+  position:absolute;
 }
 .copyright-black{
   color:#000;
+  position:absolute;
 }
 .hebo{
   font-size: 0.8rem;
